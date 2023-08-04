@@ -1,0 +1,47 @@
+body {
+  background-color: #F8F8DD !important;
+  height: 100vh;
+}
+
+* {
+  background-color: #F8F8DD !important;
+  color: black;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+#title {
+  padding-top: 3rem;
+}
+#title:hover {
+  color: #564D80 !important;
+}
+
+#body {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.icons {
+  size: 2rem;
+}
+.icons:hover {
+  background-color: #564D80 !important;
+}
+
+.textInSection {
+  font-weight: normal;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+#AboutME, #Skills, #Projects {
+  font-weight: bold;
+  font-family: Verdana, Tahoma, sans-serif;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  border: 0;
+}
+#AboutME:hover, #Skills:hover, #Projects:hover {
+  background-color: #564D80 !important;
+}
+
+/*# sourceMappingURL=style2.css.map */

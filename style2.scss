@@ -1,0 +1,57 @@
+// variables
+$background-color: #F8F8DD !important;
+$text-color:black;
+$secondary-color:#564D80 !important;
+$font:Verdana, Tahoma, sans-serif;
+
+
+body{
+    background-color: $background-color;
+    height: 100vh;
+}
+
+*{
+    background-color: $background-color;
+    color: $text-color;
+    font-family: $font;
+}
+
+#title{
+    padding-top: 3rem;
+    &:hover{
+        color:$secondary-color;
+    }
+    
+}
+#body{
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+.icons{                           // icons
+    size: 2rem;
+    &:hover{
+        background-color: $secondary-color;
+    }
+}
+
+
+.textInSection{                   // Text in sections 
+    font-weight: normal;
+    font-family: $font;
+
+}
+
+#AboutME, #Skills, #Projects{           // buttons
+    font-weight: bold;
+    font-family:$font;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    border: 0;
+    &:hover{
+        background-color: $secondary-color;
+    }
+}
+
+
+
