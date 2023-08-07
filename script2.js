@@ -9,7 +9,7 @@ const emailIcon = document.getElementById('emailIcon')
 
 
 function skills(){
-    section.innerHTML = "- Web Development: HTML, CSS, JavaScript, Bootstrap, SASS - Other Languages: Python, C- Accessibility";
+    section.innerHTML = "- Web Development: HTML, CSS, JavaScript, Bootstrap, SASS <br> - Other Languages: Python, C <br>- Accessibility";
 }
 
 function aboutME(){
